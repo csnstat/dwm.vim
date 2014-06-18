@@ -1,4 +1,4 @@
-## This is an non-interferring DWM, with all shortkeys being compined with an additional <shift> key. 
+## This is a non-interferring DWM, with all shortkeys being compined with an additional <shift> key. 
 ### dwm.vim : Tiled Window Management for Vim
 
 dwm.vim adds tiled window management capabilities to Vim. It is highly inspired by [dwm](http://dwm.suckless.org/) (Dynamic Window Manager) tiled layout management. 
