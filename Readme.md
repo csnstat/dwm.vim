@@ -1,3 +1,4 @@
+## This is an non-interferring DWM, with all shortkeys being compined with an additional <shift> key. 
 ### dwm.vim : Tiled Window Management for Vim
 
 dwm.vim adds tiled window management capabilities to Vim. It is highly inspired by [dwm](http://dwm.suckless.org/) (Dynamic Window Manager) tiled layout management. 
@@ -19,9 +20,9 @@ Windows are always organised as follows:
 Use the following commands to create, browse and close windows: 
 
 - `C-N` Creates a new window and place it in the master pane [M] & stacks all previous windows in the stacked pane [S]
-- `C-C` Close the current window if no unsaved changes 
-- `C-J` Jumps to next window (clockwise) 
-- `C-K` Jumps to previous window (anti-clockwise) 
+- `C-S-C` Close the current window if no unsaved changes 
+- `C-S-J` Jumps to next window (clockwise) 
+- `C-S-K` Jumps to previous window (anti-clockwise) 
 - `C-Space` Focus the current window, that is, place it in the master pane [M] & stacks all other windows in the stacked pane [S]
 
 ### ScreenShot
