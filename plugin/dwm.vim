@@ -198,10 +198,10 @@ if g:dwm_map_keys
   nnoremap <C-S-K> <C-W>W
 
   if !hasmapto('<Plug>DWMRotateCounterclockwise')
-      nmap <C-S-,> <Plug>DWMRotateCounterclockwise
+      nmap <C-S--> <Plug>DWMRotateCounterclockwise
   endif
   if !hasmapto('<Plug>DWMRotateClockwise')
-      nmap <C-S-.> <Plug>DWMRotateClockwise
+      nmap <C-S-+> <Plug>DWMRotateClockwise
   endif
 
   if !hasmapto('<Plug>DWMNew')
@@ -212,7 +212,7 @@ if g:dwm_map_keys
   endif
   if !hasmapto('<Plug>DWMFocus')
       nmap <C-@> <Plug>DWMFocus
-      nmap <C-Space> <Plug>DWMFocus
+      nmap <leader>m <Plug>DWMFocus
   endif
 
   if !hasmapto('<Plug>DWMGrowMaster')
